@@ -75,7 +75,7 @@ export function Header() {
                             isMenuOpen ? "hover:bg-gray-200 rounded-3xl" : ""
                         } lg:w-auto text-center lg:text-start transition-all duration-300 scale-100 hover:scale-105`}
                     >
-                        <Link to="/user/properties/favorites" target="_blank" className="font-outline-1">
+                        <Link to="/user/properties/favorites" className="font-outline-1">
                             FAVORITOS
                         </Link>
                     </li>
